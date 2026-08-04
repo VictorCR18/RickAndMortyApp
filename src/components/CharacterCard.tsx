@@ -71,8 +71,8 @@ export function CharacterCard({ character, onSelect }: CharacterCardProps) {
 
         {/* Indicador de status com pulso e halo neon. */}
         <div className="character-status-row" aria-label={`Status: ${statusStyle.label}`}>
-          <span className="status-dot" />
           <span className="status-text">
+          <span className="status-dot" />
             <span className="detail-label">
               <FlaskConical size={14} style={{ marginRight: 4, verticalAlign: 'text-bottom' }} /> Status:
             </span>{' '}
